@@ -2,6 +2,7 @@ var request = require('request');
 var token = require('./secrets');
 var fs = require('fs');
 
+// introduction
 console.log('Welcome to the GitHub Avatar Downloader!');
 
 function getRepoContributors(repoOwner, repoName, cb) {
