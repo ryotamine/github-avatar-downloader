@@ -1,5 +1,5 @@
 var request = require('request');
-var token = require('secrets');
+var token = require('./secrets');
 
 console.log('Welcome to the GitHub Avatar Downloader!');
 
