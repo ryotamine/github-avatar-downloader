@@ -40,3 +40,6 @@ getRepoContributors("jquery", "jquery", function(err, result) {
 function downloadImageByURL(url, filePath) {
   request(url).pipe(fs.createWriteStream(filePath));
 }
+
+// call downloadImageByURL function manually
+function downloadImageByURL(https://avatars2.githubusercontent.com/u/2741?v=3&s=466", "avatars/kvirani.jpg);
