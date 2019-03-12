@@ -24,7 +24,7 @@ function getRepoContributors(repoOwner, repoName, cb) {
 // call getRepoContributors function
 getRepoContributors("jquery", "jquery", function(err, result) {
 
-  // loop through avata_url values
+  // loop through avatar_url values
   for (var i = 0; i < result.length; i++) {
     console.log("Result:", result[i].avatar_url);
   }
